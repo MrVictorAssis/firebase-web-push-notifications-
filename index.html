@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="sw.js"></script>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase-messaging.js"></script>
+    <script>
+      //Configuração do projeto do firebase
+      var firebaseConfig = {
+        apiKey: "AIzaSyBVaofuin8Sdv1GtixODUdLW65SG1Mzfao",
+        authDomain: "bem-informado-11f79.firebaseapp.com",
+        databaseURL: "https://bem-informado-11f79.firebaseio.com",
+        projectId: "bem-informado-11f79",
+        storageBucket: "",
+        messagingSenderId: "836404257259",
+        appId: "1:836404257259:web:a0d2cb8c04c7ee7c"
+      };
+      //inicializando as mesmas
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <button type="button" onclick="dispara()">Disparar Notificação teste</button>
+  </body>
+</html>
