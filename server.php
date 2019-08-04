@@ -20,7 +20,7 @@ $fields = array(
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://fcm.googleapis.com/fcm/send");
 curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json; charset=utf-8',
-                       'Authorization: key=AAAAwr2UIes:APA91bHlcj2moRddH2NPJ5ESOZas4RAmlZ7g7i_CBzZBdDfka9L8ryTG_nCS9TLP44DdWoBdnCObRA6tiArgnH4mVCTf_POb1bSh8jgKFe9cPS6joVLFD46-o8_skQY901sdi6sfYoVX'));
+                       'Authorization: key={{your authorization key here}}'));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_HEADER, TRUE);
 curl_setopt($ch, CURLOPT_POST, TRUE);
