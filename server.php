@@ -13,7 +13,7 @@ $fields = array(
       'title' => "Titulo da Notificação",
       'body' => "Mensagem",
       'click_action' => "https://github.com/MrVictorAssis/firebase-web-push-notifications-",
-      'icon' => "http://localhost/bem-informado-notification/empty.jpg"
+      'icon' => "http://adoracaoevida.com/www/wp-content/gallery/eu-fui_1/foto_teste_2.jpg"
     ),
   'to' => "/topics/all"
 );
